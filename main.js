@@ -3,8 +3,7 @@ let N = 1000,
 	integral;
 
 let MatchFunction = (X) => {
-	let y = Math.exp(-Math.sin(X*X));
-	return y;
+	 return Math.exp(-Math.sin(X*X));
 };
 
 let Calculate = (x0, xk) => {
